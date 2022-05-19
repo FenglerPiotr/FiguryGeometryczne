@@ -12,8 +12,8 @@ public class ShapeFactory {
             case 4: return createQuadrangle(lengthList);
             case 5: return createPentagon(lengthList);
             case 6: return createHexagon(lengthList);
+            default: throw new IllegalArgumentException("Brak obiektów dla podanych argumentów. ");
         }
-        return null;
     }
 
     private static Shape createHexagon(List<Integer> lengthList) {
