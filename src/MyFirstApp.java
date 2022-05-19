@@ -30,7 +30,7 @@ public class MyFirstApp {
                 shapes.add(ShapeFactory.createShape(lengthList));
             } catch (Exception e) {
                 System.out.println(e.getMessage());
-                i--;2
+                i--;
             }
         }
         return shapes;
